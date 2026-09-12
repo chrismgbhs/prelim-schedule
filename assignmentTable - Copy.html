@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+		.schedule {
+            padding: 15px;
+            color: white;
+            font-family: sans-serif;
+            border-spacing: 0px 0px;
+            background-color: rgb(240, 255, 198);
+            box-shadow: 0px 0px 6px black;
+			width: 25%;
+            margin: auto;
+        }
+
+        h1 {
+            font-family: sans-serif;
+            text-align: center;
+            color: black;
+            width: 100%;
+        }
+
+        th, td {
+            color: black;
+            box-shadow: 0px 0px 4px black;
+            border-radius: 7px;
+            padding: 15px;
+            border-bottom: 2px solid black;
+            height: 20px;
+        }
+
+        .time {
+            background-image: none;
+            box-shadow: none;
+            border-radius: 0px;
+            border-bottom: 0px;
+        }
+
+		.vacant {
+			background-image: none;
+			box-shadow: none;
+			border-radius: 0px;
+		}
+
+		.secHeader1, .secHeader2, .secHeader3, .secAsat {
+			border-bottom: 0px;
+		}
+
+		.secHeader1 {
+			background-image: linear-gradient(rgba(0, 157, 255, 0.496), rgba(0, 157, 255, 0.192));
+		}
+
+        .secHeader2 {
+            background-image: linear-gradient(rgba(78, 255, 116, 0.496), rgba(78, 255, 116, 0.192));
+        }
+
+        .secHeader3 {
+            background-image: linear-gradient(rgba(255, 98, 98, 0.496), rgba(255, 98, 98, 0.192));
+        }
+
+        .secAsat {
+            background-image: linear-gradient(rgba(255, 255, 0, 0.496), rgba(255, 255, 0, 0.192));
+        }
+
+		.filler {
+			border-bottom: 0px;
+			Background-image: none;
+			box-shadow: none;
+		}
+
+        .legend {
+            text-align: center;
+            margin: auto;
+            margin-bottom: 20px;
+            border-spacing: 20px;
+            font-family: sans-serif;
+        }
+
+        .AIML {
+            background-image: linear-gradient(rgba(0, 157, 255, 0.496), rgba(0, 157, 255, 0.192));
+        }
+
+        .DSBA {
+            background-image: linear-gradient(rgba(78, 255, 116, 0.496), rgba(78, 255, 116, 0.192));
+        }
+
+        .ICS {
+           
+            background-image: linear-gradient(rgba(255, 98, 98, 0.496), rgba(255, 98, 98, 0.192));
+        }
+
+        .secAsat {
+            background-image: linear-gradient(rgba(255, 255, 0, 0.496), rgba(255, 255, 0, 0.192));
+        }
+
+        .LEGEND, .AIML, .DSBA, .ICS, .secAsat {
+            box-shadow: 0px 0px 4px black;
+            border-radius: 7px;
+            padding: 10px;
+			border-bottom: 0px;
+        }
+
+		
+
+	</style>
+</head>
+<body style="background-color: white;">
+<h1>PRELIM EXAM SCHEDULE</h1>
+	<table class="legend">
+		<tr>
+			<th class="LEGEND">LEGEND</th>
+			<th class="AIML">AI/ML</th>
+			<th class="DSBA">DSBA</th>
+			<th class="ICS">ICS</th>
+			<th class="secAsat">ASAT</th>
+		</tr>
+	</table>
+<table class="schedule">
+<tr>
+	<th>TIME</th>
+	<th colspan="4">MONDAY</th>
+	<th colspan="4">TUESDAY</th>
+	<th colspan="4">WEDNESDAY</th>
+	<th colspan="4">THURSDAY</th>
+	<th colspan="4">FRIDAY</th>
+</tr>
+<tr>
+	<th rowspan="2" class="time">08:00</th>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td rowspan="3" class="secHeader3">Fundamentals of Artificial Intelligence CL1</td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="secHeader1" rowspan="3">Information Assurance and Security 1 CL2</td>
+	<td class="vacant"></td>
+	<td rowspan="3" class="secHeader3">English at Work 502C</td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td rowspan="3" class="secHeader2">English at Work 504C</td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td rowspan="3" class="secHeader1">Mobile App Development CL1</td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">09:00</th>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">10:00</th>
+	<td class="vacant"></td>
+	<td rowspan="3" class="secHeader2">Fundamentals of Artificial Intelligence CL1</td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td rowspan="3" class="secHeader3">Cloud Computing CL1</td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">11:00</th>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td rowspan="3" class="secHeader1">Systems Integration and Architecture CL3</td>
+	<td rowspan="3" class="secHeader2">Systems Integration and Architecture CL3</td>
+	<td rowspan="3" class="secHeader3">Systems Integration and Architecture CL2</td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td rowspan="3" class="secHeader2">Information Assurance and Security 1 CL2</td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td rowspan="3" class="secHeader1">Introduction to Data Science and Business A CL1</td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">12:00</th>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td rowspan="3" class="secHeader1">English at Work PSYCHLAB</td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td rowspan="3 " class="secHeader1">Fundamentals of Artificial Intelligence CL1</td>
+	<td rowspan="6" class="secHeader2">Mobile Application and Development</td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">13:00</th>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td rowspan="3" class="secHeader3">Introduction to Data Science and Business Analytics CL1</td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">14:00</th>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td rowspan="3" class="secHeader3">Information Security and Assurance 1 CL2</td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">15:00</th>
+	<td class="secHeader1" rowspan="6">Data Communications and Networking 2 CL1</td>
+	<td class="secHeader2" rowspan="6">Data Communications and Networking 2 CL1</td>
+	<td rowspan="6" class="secHeader3">Data Communications and Networking 2 CL1</td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td rowspan="3" class="secHeader2">Introduction to Data Science and Business Analytics CL1</td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td rowspan="3" class="secHeader2">Introduction to Statistical Methods 205C</td>
+	<td rowspan="3" class="secHeader3">Mobile App Development CL1</td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">16:00</th>
+
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td rowspan="3" class="secHeader1">Applied Linear Algebra 205C</td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">17:00</th>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td rowspan="3" class="secHeader1">Web Systems and Technologies CL2</td>
+	<td rowspan="3" class="secHeader2">Web Systems and Technologies CL1</td>
+	<td rowspan="3" class="secHeader3">Web Systems and Technologies CL3</td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">18:00</th>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" rowspan="5" class="secAsat">Object Oriented Programming CL3</td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" rowspan="5" class="secAsat">Object Oriented Programming CL3</td>
+
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">19:00</th>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<th rowspan="2" class="time">20:00</th>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+<tr>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" style="border-right: 2px solid black;" class="vacant"></td>
+
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td class="vacant"></td>
+	<td style="border-right: 2px solid black;" style="border-right: 2px solid black;" class="vacant"></td>
+</tr>
+</table>
+</body>
+</html>
